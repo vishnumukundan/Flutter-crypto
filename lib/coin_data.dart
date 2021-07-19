@@ -19,8 +19,9 @@ class CoinData {
         print(response.statusCode);
         throw 'Problem with the get Request';
       }
-      return cryptoPrices;
+      
     }
+    return cryptoPrices;
   }
 }
 
